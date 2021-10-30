@@ -59,7 +59,10 @@ public class GameFrame extends JFrame implements WindowFocusListener {
         this.autoLocate();
         this.setVisible(true);
     }
-
+    /** 
+     * to change/cleanup our JFrame window form our homeMenu object which will then lead
+     * to the game board and its object itself
+     */
     public void enableGameBoard(){
         this.dispose();
         this.remove(homeMenu);
